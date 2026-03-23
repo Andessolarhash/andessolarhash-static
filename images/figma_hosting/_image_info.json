@@ -1,0 +1,42 @@
+﻿[
+    {
+        "name":  "FONDO",
+        "id":  "147:133",
+        "type":  "RECTANGLE"
+    },
+    {
+        "name":  "Background+HorizontalBorder",
+        "id":  "147:136",
+        "type":  "FRAME"
+    },
+    {
+        "name":  "HOSTING 1",
+        "id":  "152:4",
+        "type":  "RECTANGLE"
+    },
+    {
+        "name":  "Background+Border",
+        "id":  "147:310",
+        "type":  "FRAME"
+    },
+    {
+        "name":  "Background+Border",
+        "id":  "147:315",
+        "type":  "FRAME"
+    },
+    {
+        "name":  "Background+Border",
+        "id":  "147:321",
+        "type":  "FRAME"
+    },
+    {
+        "name":  "SIN FONDO 3",
+        "id":  "243:65",
+        "type":  "RECTANGLE"
+    },
+    {
+        "name":  "SIN FONDO 2",
+        "id":  "196:385",
+        "type":  "RECTANGLE"
+    }
+]
