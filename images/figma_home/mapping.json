@@ -1,0 +1,167 @@
+{
+  "project": "ANDES SOLAR HASH - KINTO",
+  "figma_url": "https://www.figma.com/design/9Yz7rsHqdK9ITCLH9J2FdX/ANDES-SOLAR-HASH---KINTO",
+  "frame": "HOME",
+  "frame_node_id": "6:2",
+  "download_date": "2025-03-18",
+  "total_images": 17,
+  "structure": {
+    "01_hero": {
+      "description": "Imágenes principales de la sección Hero",
+      "images": [
+        {
+          "filename": "hero_main.png",
+          "figma_node_id": "32:106",
+          "figma_name": "image 4",
+          "size_kb": 721,
+          "type": "hero_image"
+        },
+        {
+          "filename": "hero_background.png",
+          "figma_node_id": "26:97",
+          "figma_name": "image 3",
+          "size_kb": 1968,
+          "type": "background"
+        }
+      ]
+    },
+    "02_productos": {
+      "description": "Imágenes de productos/mineros ASIC",
+      "images": [
+        {
+          "filename": "producto_s21_desktop.png",
+          "figma_node_id": "23:87",
+          "figma_name": "PRODUCTO 1",
+          "size_kb": 536,
+          "type": "product",
+          "variant": "desktop"
+        },
+        {
+          "filename": "producto_s21_mobile.png",
+          "figma_node_id": "317:564",
+          "figma_name": "PRODUCTO 1",
+          "size_kb": 223,
+          "type": "product",
+          "variant": "mobile"
+        }
+      ]
+    },
+    "03_backgrounds": {
+      "description": "Fondos, gradientes y elementos de background",
+      "images": [
+        {
+          "filename": "fondo_principal.png",
+          "figma_node_id": "6:234",
+          "figma_name": "Gradient",
+          "size_kb": 4123,
+          "type": "main_background"
+        },
+        {
+          "filename": "gradient_mask.png",
+          "figma_node_id": "26:99",
+          "figma_name": "Gradient",
+          "size_kb": 1618,
+          "type": "gradient"
+        },
+        {
+          "filename": "gradient_mobile_1.png",
+          "figma_node_id": "317:414",
+          "figma_name": "Gradient",
+          "size_kb": 1342,
+          "type": "gradient",
+          "variant": "mobile"
+        },
+        {
+          "filename": "gradient_mobile_2.png",
+          "figma_node_id": "317:537",
+          "figma_name": "Gradient",
+          "size_kb": 1679,
+          "type": "gradient",
+          "variant": "mobile"
+        }
+      ]
+    },
+    "04_nft": {
+      "description": "Imágenes relacionadas con NFTs",
+      "images": [
+        {
+          "filename": "nft_sin_fondo.png",
+          "figma_node_id": "24:95",
+          "figma_name": "SIN FONDO 1",
+          "size_kb": 115,
+          "type": "nft_element"
+        }
+      ]
+    },
+    "05_newsletter": {
+      "description": "Imágenes de la sección Newsletter",
+      "images": [
+        {
+          "filename": "newsletter_image.png",
+          "figma_node_id": "317:587",
+          "figma_name": "image 4",
+          "size_kb": 254,
+          "type": "newsletter"
+        },
+        {
+          "filename": "newsletter_producto.png",
+          "figma_node_id": "321:2898",
+          "figma_name": "image 4",
+          "size_kb": 254,
+          "type": "product_newsletter"
+        }
+      ]
+    },
+    "06_elementos": {
+      "description": "Elementos decorativos",
+      "images": [
+        {
+          "filename": "sombra_1.png",
+          "figma_node_id": "17:649",
+          "figma_name": "SOMBRA",
+          "size_kb": 80,
+          "type": "shadow_effect"
+        },
+        {
+          "filename": "sombra_2.png",
+          "figma_node_id": "17:650",
+          "figma_name": "SOMBRA",
+          "size_kb": 80,
+          "type": "shadow_effect"
+        },
+        {
+          "filename": "sombra_mobile.png",
+          "figma_node_id": "317:645",
+          "figma_name": "SOMBRA",
+          "size_kb": 70,
+          "type": "shadow_effect",
+          "variant": "mobile"
+        }
+      ]
+    },
+    "99_otros": {
+      "description": "Fondos adicionales mobile",
+      "images": [
+        {
+          "filename": "fondo_mobile_1.png",
+          "figma_node_id": "317:31",
+          "figma_name": "FONDO",
+          "size_kb": 154,
+          "type": "mobile_background"
+        },
+        {
+          "filename": "fondo_mobile_2.png",
+          "figma_node_id": "321:2618",
+          "figma_name": "FONDO",
+          "size_kb": 154,
+          "type": "mobile_background"
+        }
+      ]
+    }
+  },
+  "full_frame": {
+    "filename": "HOME_frame_completo.png",
+    "description": "Screenshot completo del frame HOME",
+    "size_mb": 3.85
+  }
+}
