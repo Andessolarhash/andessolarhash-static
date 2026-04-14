@@ -51,6 +51,9 @@ Unirse al Discord de Holders
       features: { analytics: false }
     });
 
+    // Guardar referencia global al modal
+    _appkitModal = modal;
+
     // Botón listo
     btnConnect.disabled = false;
     btnConnect.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="2"/></svg> Conectar Wallet';
@@ -89,6 +92,7 @@ Unirse al Discord de Holders
   var connectedWallet = null;
   var nftCount = 0;
   var tokenId = '';
+  var _appkitModal = null; // referencia al modal AppKit para desconectar
 
   // Panels
   function showPanel(id) {
@@ -116,11 +120,24 @@ Unirse al Discord de Holders
     if (el) el.textContent = shortAddr(addr);
   }
 
-  // Botón desconectar
+  // Botón desconectar — desconecta AppKit completamente y abre modal para elegir nueva wallet
   document.getElementById('btn-disconnect').addEventListener('click', function () {
     connectedWallet = null;
-    showPanel('panel-connect');
-    setStep(1);
+    nftCount = 0;
+    tokenId = '';
+    if (_appkitModal) {
+      _appkitModal.disconnect().catch(function(){}).finally(function() {
+        showPanel('panel-connect');
+        setStep(1);
+        // Abre el modal automáticamente para seleccionar otra wallet
+        setTimeout(function() {
+          try { _appkitModal.open({ view: 'Connect' }); } catch(_) {}
+        }, 300);
+      });
+    } else {
+      showPanel('panel-connect');
+      setStep(1);
+    }
   });
 
   var reconnectBtn = document.getElementById('btn-reconnect');
