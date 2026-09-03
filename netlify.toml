@@ -17,3 +17,13 @@
   from = "/nft"
   to = "/mineria-fraccionada/"
   status = 301
+
+[[redirects]]
+  from = "/productos/s21-plus-nft/"
+  to = "/productos/s21-pro/"
+  status = 301
+
+[[redirects]]
+  from = "/productos/s21-plus-nft"
+  to = "/productos/s21-pro/"
+  status = 301
